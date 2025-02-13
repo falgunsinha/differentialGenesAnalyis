@@ -16,13 +16,8 @@ The data set contains 6 RNA-seq samples. Samples 0-2 belong to Condition A and s
 -s 1.
 
 ## Files description:
-- featureCounts_output.txt
-  This file contains the featureCounts results of 6 samples.
-- deseq2_up.txt
-  Contains the subset of DESeq2 results for genes with a log2 fold-change >= 2.
-- deseq2_down.txt
-  Contains the subset of DESeq2 results for genes with a log2 fold-change <= -2.
-- workflow.smk
-  snakemake workflow used to generate the results.
-- protocol.ipynb:
-  A description of steps performed and commands executed.
+- featureCounts_output.txt : Contains the featureCounts results of 6 samples.
+- deseq2_up.txt : Contains the subset of DESeq2 results for genes with a log2 fold-change >= 2.
+- deseq2_down.txt : Contains the subset of DESeq2 results for genes with a log2 fold-change <= -2.
+- workflow.smk : snakemake workflow used to generate the results.
+- protocol.ipynb : A description of steps performed and commands executed.
