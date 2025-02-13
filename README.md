@@ -1,6 +1,6 @@
 # Differential gene expression analyis
 
-Perform a differential gene expression analysis on RNA-seq data.
+Perform differential gene expression analysis on RNA-seq data.
 The data set contains 6 RNA-seq samples. Samples 0-2 belong to Condition A and samples 3-5 to Condition B.
 • Condition A: log2 fold-change >= 2
 • Condition B: log2 fold-change <= -2
