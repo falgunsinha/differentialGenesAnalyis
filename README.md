@@ -12,17 +12,17 @@ The data set contains 6 RNA-seq samples. Samples 0-2 belong to Condition A and s
 - featureCounts: to obtain reads counts on the gene level.
 - DESeq2: to detect differentially expressed genes.
 
-**Note**: the RNA-seq data is single-end data. We need to change program options accordingly, i.e. for featureCounts, use the option
+**Note**: the RNA-seq data is single-end. We need to change program options accordingly, i.e. for featureCounts, use the option
 -s 1.
 
 ## Files description:
-• featureCounts_output.txt
+- featureCounts_output.txt
   This file contains the featureCounts results of 6 samples.
-• deseq2_up.txt
+- deseq2_up.txt
   Contains the subset of DESeq2 results for genes with a log2 fold-change >= 2.
-• deseq2_down.txt
+- deseq2_down.txt
   Contains the subset of DESeq2 results for genes with a log2 fold-change <= -2.
-• workflow.smk
+- workflow.smk
   snakemake workflow used to generate the results.
-• protocol.ipynb:
+- protocol.ipynb:
   A description of steps performed and commands executed.
