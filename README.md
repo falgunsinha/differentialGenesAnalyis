@@ -2,8 +2,8 @@
 
 Perform differential gene expression analysis on RNA-seq data.
 The data set contains 6 RNA-seq samples. Samples 0-2 belong to Condition A and samples 3-5 to Condition B.
-• Condition A: log2 fold-change >= 2
-• Condition B: log2 fold-change <= -2
+- Condition A: log2 fold-change >= 2
+- Condition B: log2 fold-change <= -2
 
 ## Steps:
 - fastqc: for quality control of the raw and quality filtered data.
